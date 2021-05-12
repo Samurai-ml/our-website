@@ -10373,3 +10373,13 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+/* changes */
+
+.brand {
+font-family: 'Syncopate', sans-serif;
+}
+
+.brand strong {
+  font-size: larger;
+}
