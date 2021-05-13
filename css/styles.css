@@ -2464,18 +2464,18 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #EC5044;
-  border-color: #EC5044;
+  border-color: #a02017;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #548b87;
-  border-color: #4f837f;
+  background-color: #C4413A;
+  border-color: #a02017;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #548b87;
-  border-color: #4f837f;
-  box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
+  background-color: #EC5044;
+  border-color: #a02017;
+  box-shadow: 0 0 0 0.2rem rgba(117, 4, 4, 0.705);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -2484,11 +2484,11 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #4f837f;
-  border-color: #4a7b78;
+  background-color: #EC5044;
+  border-color: #a02017;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(117, 4, 4, 0.705);
 }
 
 .btn-secondary {
@@ -2518,7 +2518,7 @@ fieldset:disabled a.btn {
   border-color: #4e555b;
 }
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(117, 4, 4, 0.705);
 }
 
 .btn-success {
@@ -2738,10 +2738,10 @@ fieldset:disabled a.btn {
 .btn-outline-primary:hover {
   color: #fff;
   background-color: #EC5044;
-  border-color: #EC5044;
+  border-color: #a02017;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(100, 161, 157, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(117, 4, 4, 0.705);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
   color: #EC5044;
@@ -2750,10 +2750,10 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
   background-color: #EC5044;
-  border-color: #EC5044;
+  border-color: #a02017;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(100, 161, 157, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(117, 4, 4, 0.705);
 }
 
 .btn-outline-secondary {
@@ -2962,7 +2962,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #467370;
+  color: #a02017;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -10377,9 +10377,18 @@ body {
 /* changes */
 
 .brand {
-font-family: 'Syncopate', sans-serif;
+font-family: Syncopate, sans-serif;
 }
 
 .brand strong {
   font-size: larger;
+}
+
+.bushido-background {
+  background-position: 0 10px !important;
+  background: url(../assets/img/Samurai.Bushido.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
